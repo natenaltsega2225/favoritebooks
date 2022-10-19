@@ -42,6 +42,11 @@ const Main=() => {
          <Card book={bookData}/>
        }
 
+       <div> 
+        <h5 style={{fontSize:"26px" ,textAlign:"center"}}> &#169;Natenal Tsega  </h5>
+
+       </div>
+
        </div>
     </>
   )
