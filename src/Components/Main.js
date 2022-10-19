@@ -25,7 +25,7 @@ const Main=() => {
           </div>
 
           <div className="row2">
-            <h2>Find your book</h2>
+            <h2>Find your Book</h2>
             <div className="search">
               {/* e.targe.value will retrive the value searched from the API */}
               <input type= "text" placeholder="Enter Your Book Name" value={search} onChange={e=>setSearch(e.target.value)} onKeyPress={searchBook}/>
